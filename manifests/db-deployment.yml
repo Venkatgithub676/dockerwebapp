@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: venkatesh676/k8sfirst:dbimage
+          image: venkatesh676/k8sfirstproject:dbimage
           ports:
             - containerPort: 3306
       imagePullSecrets:
